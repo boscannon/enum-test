@@ -8,7 +8,7 @@ trait hasFunc
   {
     return collect(static::cases())->map(function($item){
       return [
-        'value' => $item->value,
+        'id' => $item->value,
         'label' => $item->name,
       ];
     });
